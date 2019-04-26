@@ -112,7 +112,7 @@ $ docker ps
 $ docker-compose exec db sh /tmp/mysql/run.sh
 ```
 
-Step 8.
+Step 9.
 Open web browser and test using your docker host ip
 
 eg: x.x.x.x/app1/
