@@ -11,14 +11,14 @@ $products = $pdtLib->get();
 <html>
   <head>
     <title>
-      Well come to DevOps Training Shoping Cart
+      Welcome to DevOps Training Shoping Cart
     </title>
     <link rel="stylesheet" href="public/3c-theme.css">
     <script src="public/4a-cart.js"></script>
   </head>
   <body>
     <header id="page-header">
-    DevOps Training Shoping Cart 
+    DevOps Training Shoping Cart : enjoy Shooping :-)
       <!-- [CART BUTTON] -->
       <div id="page-cart-icon" onclick="cart.toggle();">
         &#128722; <span id="page-cart-count">0</span>
