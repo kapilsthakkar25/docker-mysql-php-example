@@ -16,7 +16,12 @@ if (isset($_POST['search'])) {
       <input type="text" name="search" required/>
       <input type="submit" value="Search"/>
     </form>
-
+    <br />
+    <br />
+    <br />
+    <div>
+      <a href="ajax-search.html">AJAX Example</a>
+    </div>
     <!-- [SEARCH RESULTS] -->
     <?php
     if (isset($_POST['search'])) {
