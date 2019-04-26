@@ -2,7 +2,7 @@
 <html>
   <head>
     <title>
-      AJAX Search Example
+      DevOps Training :: AJAX Search Example
     </title>
     <script>
       function fetch() {
@@ -13,7 +13,7 @@
 
         // AJAX
         var xhr = new XMLHttpRequest();
-        xhr.open('POST', "3-search.php", true);
+        xhr.open('POST', "search.php", true);
         xhr.onload = function () {
           if (xhr.status==403 || xhr.status==404) {
             alert("ERROR LOADING FILE!");
