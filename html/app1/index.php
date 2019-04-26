@@ -8,6 +8,11 @@ if (isset($_POST['search'])) {
 <!DOCTYPE html>
 <html>
   <body>
+    <div>
+      <a href="ajax-search.html">AJAX Example</a>
+    </div>
+    <br />
+    <br />
     <!-- [SEARCH FORM] -->
     <form method="post">
       <h1>
@@ -16,12 +21,6 @@ if (isset($_POST['search'])) {
       <input type="text" name="search" required/>
       <input type="submit" value="Search"/>
     </form>
-    <br />
-    <br />
-    <br />
-    <div>
-      <a href="ajax-search.html">AJAX Example</a>
-    </div>
     <!-- [SEARCH RESULTS] -->
     <?php
     if (isset($_POST['search'])) {
